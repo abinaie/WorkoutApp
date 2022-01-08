@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WORK IT!"
+        android:textSize="25dp"
+        />
+
+    <Button
+        android:id="@+id/doWorkoutButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Do A WORKOUT"
+        android:onClick="onDoWorkoutButtonClicked"
+        />
+
+    <Button
+        android:id="@+id/setupEditModeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SETUP/EDIT MODE"
+        android:onClick="onSetupEditModeClicked"
+        />
+</LinearLayout>
